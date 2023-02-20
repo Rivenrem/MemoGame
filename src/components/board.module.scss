@@ -1,0 +1,13 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.score {
+  margin: 2rem;
+  font-size: x-large;
+}
